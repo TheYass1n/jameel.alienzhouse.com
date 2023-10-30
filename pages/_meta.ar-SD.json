@@ -1,0 +1,28 @@
+{
+    "index": {
+      "type": "page",
+      "title": "الصفحة الرئيسية",
+      "theme": {
+        "layout": "full"
+      }
+    },
+    "docs": {
+      "type": "page",
+      "title": "دليل الاستخدام"
+    },
+    "showcase": {
+      "type": "page",
+      "title": "المعرض",
+      "theme": {
+        "typesetting": "article",
+        "layout": "full"
+      }
+    },
+    "about": {
+      "type": "page",
+      "title": "عن الثيم",
+      "theme": {
+        "typesetting": "article"
+      }
+    }
+  }

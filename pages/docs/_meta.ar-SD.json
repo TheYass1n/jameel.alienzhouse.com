@@ -1,0 +1,10 @@
+{
+    "intro": "المقدمة",
+    "-- Themes": {
+      "type": "separator",
+      "title": "تخصيص الثيم"
+    },
+    "theme-options": "خيارات التصميم",
+    "home-page-components": "عناصر الصفحة الرئيسية",
+    "store-menus":"قوائم المتجر"
+}
