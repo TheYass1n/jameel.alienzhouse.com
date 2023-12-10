@@ -1,5 +1,9 @@
 {
     "store-options": "خيارات المتجر",
     "product-page-options": "خيارات صفحة المنتج",
-    "header-options":"خيارات اعلى المتجر"
+    "header-options":"خيارات اعلى المتجر",
+    "dark-mode-options": "خيارات الوضع الداكن",
+    "footer-options": "خيارات زيل المتجر  ",
+    "chat-button-options": "خيارات زر المحادثة العائم",
+    "product-card-options": "خيارات بطاقة المنتج"
 }
