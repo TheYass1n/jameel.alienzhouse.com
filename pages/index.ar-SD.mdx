@@ -3,15 +3,23 @@ title: ثيم جميل لتصميم المتاجر الالكترونية
 ---
 
 import Link from "next/link" 
+import { Screenshot } from "components/screenshot";
+
+import IntroImage from "assets/screenshots/intro.jpg"
 
 <div className="home-content">
-  <div className="content-container">
-    <h1 className="headline">أنشئ متاجر رائعة بسهولة مع ثيم جميل <br className='sm:block hidden'/>  متوفر على منصة سلة. </h1>
-    <p className="subtitle">Simple, powerful and flexible site generation framework <br className='sm:block hidden'/>with everything you love from <a className="nextjs-link" href="https://nextjs.org" target="_blank">Next.js</a></p>
-    <p className="subtitle">
-      <Link  href="/docs">Get started <span>→</span></Link>
+
+ <div className="flex flex-col justify-center mt-6 lg:mt-20 items-center">
+  <div className="content-container flex flex-col items-center justify-center ">
+    <h1 className="headline items-center text-center">أنشئ متاجر رائعة بسهولة مع ثيم جميل <br className='sm:block hidden'/>  متوفر على منصة سلة. </h1>
+    <p className="subtitle text-center text-base max-w-4xl">استمتع بتجربة تسوق فريدة مع ثيم "جميل". صُمم خصيصًا ليتناسب مع جميع أنواع المتاجر، ويضفي لمسة من الأناقة والعصرية على منتجاتك. يتميز بتصميمه البسيط والجذاب، وألوانه المتناسقة التي تجعل تجربة التصفح مريحة وسلسة. مع ثيم جميل، احصل على واجهة مستخدم مميزة، وخيارات تخصيص متعددة تتيح لك إظهار علامتك التجارية بأفضل صورة.</p>
+    <p className="subtitle mt-6 bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full transition duration-300 ease-in-out transform hover:-translate-y-1 hover:scale-110">
+      <Link  href="https://s.salla.sa/marketplace/themes/147641223/preview">اشتري الان<span>→</span></Link>
     </p> 
-  </div>
+  </div> 
+  <div className="mt-10 w-full">
+    <Screenshot src={IntroImage} alt="Media Slide Component" />
+  </div></div>
   <style jsx>{`
     .content-container {
       max-width: 90rem;
